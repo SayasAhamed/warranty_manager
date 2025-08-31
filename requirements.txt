@@ -1,0 +1,5 @@
+PyQt6
+pillow
+reportlab
+PyPDF2
+python-dateutil
