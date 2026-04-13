@@ -1,12 +1,25 @@
+# actions/invoice_actions.py
 import os
 import shutil
-from datetime import datetime
+import sys
 from actions.db_actions import insert_invoice
 
+# ----------------- Helper for exe path -----------------
+def resource_path(relative_path):
+    """
+    Get absolute path to resource, works for dev and PyInstaller exe
+    """
+    try:
+        base_path = getattr(__import__('sys'), "_MEIPASS")  # type: ignore[attr-defined]
+    except Exception:
+        base_path = os.getcwd()
+    return os.path.join(base_path, relative_path)
+
 # Folder for non-paid invoices
-NONPAID_FOLDER = os.path.join(os.getcwd(), "invoices", "NonPaid")
+NONPAID_FOLDER = resource_path(os.path.join("invoices", "NonPaid"))
 os.makedirs(NONPAID_FOLDER, exist_ok=True)
 
+# ----------------- PDF Handling -----------------
 def copy_imported_pdf(imported_pdf_path, invoice_id, customer_name):
     if not os.path.exists(imported_pdf_path):
         raise FileNotFoundError("Imported PDF not found")
@@ -25,6 +38,7 @@ def copy_imported_pdf(imported_pdf_path, invoice_id, customer_name):
     shutil.copy(imported_pdf_path, new_pdf_path)
     return new_pdf_path
 
+# ----------------- Add Invoice -----------------
 def add_invoice(invoice_id, customer_name, invoice_date, warranty_start, warranty_duration, pdf_path):
     """
     Adds invoice to DB and moves PDF to NonPaid folder
