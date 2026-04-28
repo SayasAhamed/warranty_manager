@@ -12,12 +12,14 @@ This system handles invoice tracking, warranty lifecycle automation, PDF stampin
 
 * Built with **PyQt6**
 * Clean, modern interface with tabs and dashboards 
-* Login screen with background & branding 
+* Login screen with background & branding
+  
 <br>
 <div>
   <img src="Screenshots\login.png">
 </div>
 <br>
+
 ---
 
 ### 🔐 Authentication System
