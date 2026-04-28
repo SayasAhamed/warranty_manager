@@ -94,7 +94,7 @@ class LoginWindow(QDialog):
         main_layout.addSpacerItem(QSpacerItem(20, 20, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding))
 
         # ---------------- Footer ----------------
-        footer = QLabel("Developed By Sayas Mansoor © 2025")
+        footer = QLabel("Developed By Sayas Mansoor © 2026")
         footer.setAlignment(Qt.AlignmentFlag.AlignCenter)
         footer.setStyleSheet("font-size: 12px; color: #ffffff;")
         main_layout.addWidget(footer)

@@ -142,7 +142,7 @@ class LoginWindow(QDialog):
 
         # Spacer + footer
         layout.addStretch(1)
-        footer = QLabel("Developed By Sayas Mansoor © 2025")
+        footer = QLabel("Developed By Sayas Mansoor © 2026")
         footer.setAlignment(Qt.AlignmentFlag.AlignCenter)
         footer.setStyleSheet("font-size: 12px; color: #E9EEF5;")
         layout.addWidget(footer)
@@ -601,7 +601,7 @@ class WarrantyManagerApp(QWidget):
         main_layout.addWidget(self.tabs)
 
         # Footer
-        footer = QLabel("Developed By Sayas Mansoor © 2025")
+        footer = QLabel("Developed By Sayas Mansoor © 2026")
         footer.setAlignment(Qt.AlignmentFlag.AlignCenter)
         footer.setStyleSheet("font-size: 12px; color: #E9EEF5; margin-top: 10px;")
         main_layout.addWidget(footer)
@@ -902,7 +902,7 @@ class WarrantyManagerApp(QWidget):
 if __name__ == "__main__":
     import sys
     app = QApplication(sys.argv)
-    dummy_user = {"user_id": 1, "username": "admin", "role": "admin"}
+    dummy_user = {"user_id": 1, "username": "admin", "role": "admin123"}
     window = WarrantyManagerApp(dummy_user)
     window.show()
     sys.exit(app.exec())

@@ -13,7 +13,11 @@ This system handles invoice tracking, warranty lifecycle automation, PDF stampin
 * Built with **PyQt6**
 * Clean, modern interface with tabs and dashboards 
 * Login screen with background & branding 
-
+<br>
+<div>
+  <img src="Screenshots\login.png">
+</div>
+<br>
 ---
 
 ### 🔐 Authentication System
@@ -22,6 +26,12 @@ This system handles invoice tracking, warranty lifecycle automation, PDF stampin
 * Password hashing using PBKDF2
 * Role-based access (Admin/User)
 * Forgot password with security questions
+
+<br>
+<div>
+  <img src="Screenshots\user management.png">
+</div>
+<br>
 
 ---
 
@@ -34,6 +44,15 @@ This system handles invoice tracking, warranty lifecycle automation, PDF stampin
   * `Paid`
   * `Warranty Ended`
 * Safe file naming & duplicate handling
+
+<br>
+<div>
+  <img src="Screenshots\Add Invoice.png">
+  <img src="Screenshots\Non-paid.png">
+  <img src="Screenshots\paid.png">
+  <img src="Screenshots\under warranty.png">
+</div>
+<br>
 
 ---
 
@@ -57,6 +76,12 @@ This system handles invoice tracking, warranty lifecycle automation, PDF stampin
   * Adds seal
   * Adds payment date
 
+<br>
+<div>
+  <img src="Screenshots\paid Seal.png">
+</div>
+<br>
+
 ---
 
 ### 🔖 Warranty Expiry System
@@ -64,6 +89,12 @@ This system handles invoice tracking, warranty lifecycle automation, PDF stampin
 * Adds **WARRANTY ENDED** seal
 * Moves expired invoices automatically
 * Background maintenance process
+
+<br>
+<div>
+  <img src="Screenshots\Warranty Ended.png">
+</div>
+<br>
 
 ---
 
@@ -96,7 +127,33 @@ This system handles invoice tracking, warranty lifecycle automation, PDF stampin
   * Database initialization
   * User login
 
-👉 Implemented in: 
+---
+### ## 🔐 Default Login Credentials
+
+You can use the following default accounts to access the system:
+
+### 👑 Admin Account
+
+* **Username:** admin
+* **Password:** admin123
+
+👉 Full access (Admin Panel, User Management, All Features)
+
+---
+
+### 👤 User Account
+
+* **Username:** user
+* **Password:** user
+
+👉 Limited access (Invoice Management & Warranty Tracking)
+
+---
+
+> ⚠️ For security, it is recommended to change these credentials after first login.
+
+
+👉 Implemented in: 2025 - 2026    
 
 ---
 

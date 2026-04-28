@@ -1,3 +1,23 @@
-2026-04-13 12:57:48,201 | INFO | root | Starting Warranty Manager
-2026-04-13 12:57:48,202 | INFO | root | Database initialized
-2026-04-13 12:57:55,756 | INFO | root | Main window shown for user=admin role=admin
+2026-04-28 20:02:58,398 | INFO | root | Starting Warranty Manager
+2026-04-28 20:02:58,412 | INFO | root | Database initialized
+2026-04-28 20:08:54,588 | INFO | root | Starting Warranty Manager
+2026-04-28 20:08:54,589 | INFO | root | Database initialized
+2026-04-28 20:11:00,977 | INFO | root | Main window shown for user=admin role=admin
+2026-04-28 20:13:56,690 | INFO | root | Starting Warranty Manager
+2026-04-28 20:13:56,691 | INFO | root | Database initialized
+2026-04-28 20:14:00,262 | INFO | root | Login canceled/closed
+2026-04-28 20:15:09,858 | INFO | root | Starting Warranty Manager
+2026-04-28 20:15:09,860 | INFO | root | Database initialized
+2026-04-28 20:15:20,607 | INFO | root | Main window shown for user=user role=user
+2026-04-28 20:15:58,700 | INFO | root | Starting Warranty Manager
+2026-04-28 20:15:58,702 | INFO | root | Database initialized
+2026-04-28 20:16:09,411 | INFO | root | Main window shown for user=admin role=admin
+2026-04-28 20:18:05,525 | INFO | root | Starting Warranty Manager
+2026-04-28 20:18:05,526 | INFO | root | Database initialized
+2026-04-28 20:18:13,893 | INFO | root | Login canceled/closed
+2026-04-28 20:18:32,139 | INFO | root | Starting Warranty Manager
+2026-04-28 20:18:32,140 | INFO | root | Database initialized
+2026-04-28 20:18:42,127 | INFO | root | Main window shown for user=admin role=admin
+2026-04-28 20:32:38,172 | INFO | root | Starting Warranty Manager
+2026-04-28 20:32:38,173 | INFO | root | Database initialized
+2026-04-28 20:33:16,793 | INFO | root | Main window shown for user=admin role=admin
